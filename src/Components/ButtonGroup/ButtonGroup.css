@@ -1,0 +1,36 @@
+.btn-group {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .btn-group > button {
+    margin: 0;
+  }
+  
+  .btn-group > button:first-child {
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .btn-group > button:last-child {
+    border-radius: 0 5px 5px 0
+  }
+  
+  
+  .btn-group.isVertical {
+    min-width: 100px;
+    display: inline-flex;
+    flex-direction: column;
+  }
+  
+  .btn-group.isVertical > button:first-child {
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .btn-group.isVertical > button:last-child {
+    border-radius: 0 0 5px 5px;
+  }
+  
+  .btn-group.isVertical > button {
+    display: block;
+  }
