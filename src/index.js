@@ -11,6 +11,12 @@ import Image from './Components/Image/SandBox';
 import Icon from './Components/Icon/SandBox';
 import ButtonGroup from './Components/ButtonGroup/SandBox';
 import Chip from './Components/Chip/SandBox';
+import Badge from './Components/Badge/SandBox';
+import ListGroup from './Components/ListGroup/SandBox';
+import Input from './Components/Input/SandBox';
+import Tabbar from './Components/Tabs/SandBox';
+import Tooltip from './Components/Tooltip/SandBox';
+import Modal from './Components/Modal/SandBox';
 
 ReactDOM.render((
   <BrowserRouter>
@@ -22,6 +28,12 @@ ReactDOM.render((
         <Route exact path="/icon" component={Icon} />
         <Route exact path="/image" component={Image} />
         <Route exact path="/chip" component={Chip} />
+        <Route exact path="/badge" component={Badge} />
+        <Route exact path="/list-group" component={ListGroup} />
+        <Route exact path="/input" component={Input} />
+        <Route exact path="/tabbar" component={Tabbar} />
+        <Route exact path="/tooltip" component={Tooltip} />
+        <Route exact path="/modal" component={Modal} />
       </Switch>
     </App>
   </BrowserRouter>

@@ -10,6 +10,10 @@
     display: inline-block;
     text-decoration: none;
   }
+  .btn.isInvert {
+    background-color: #fff;
+    color: #7CC6fE;
+  }
   
   .btn:hover:not([disabled]) {
     background-color: #70B4E6;

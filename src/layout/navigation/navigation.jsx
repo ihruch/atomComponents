@@ -15,6 +15,12 @@ const Navigation = () => (
         <li><NavLink exact to="/icon">Icon</NavLink></li>
         <li><NavLink exact to="/image">Image</NavLink></li>
         <li><NavLink exact to="/chip">Chip</NavLink></li>
+        <li><NavLink exact to="/badge">Badge</NavLink></li>
+        <li><NavLink exact to="/list-group">ListGroup</NavLink></li>
+        <li><NavLink exact to="/input">Input</NavLink></li>
+        <li><NavLink exact to="/tabbar">Tabs</NavLink></li>
+        <li><NavLink exact to="/tooltip">Tooltip</NavLink></li>
+        <li><NavLink exact to="/modal">Modal</NavLink></li>
       </ul>
     </nav>
   </div>

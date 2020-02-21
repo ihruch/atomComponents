@@ -7,6 +7,7 @@ import './Icon.css';
 const Icon = ({
   name, className, size, onClick, disabled, ...attrs
 }) => {
+  
   const classes = classNames(
     'fa',
     `fa-${name}`,
